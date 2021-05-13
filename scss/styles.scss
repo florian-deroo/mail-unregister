@@ -1,0 +1,36 @@
+@import 'reset.scss';
+@import '../assets/fonts/webfonts/stylesheet.css';
+@import 'base.scss';
+
+body {
+  display: grid;
+  height: 95%;
+  width: 95%;
+  place-items: center;
+  background: rgb(25, 44, 56);
+}
+
+input {
+  background: rgb(25, 44, 56);
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  width: 275px;
+}
+
+.wrapper{
+  width: 300px;;
+  height: 200px;;
+  background: rgb(47, 69, 83);
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  color: white;
+  font-size: 25px;
+
+  display: grid;
+  place-items: center;
+}
+
+a {
+  text-decoration: underline;
+}
